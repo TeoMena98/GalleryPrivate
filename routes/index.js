@@ -37,7 +37,11 @@ exports = module.exports = function (app) {
 	app.get('/', routes.views.index);
 	app.get('/blog/:category?', routes.views.blog);
 	app.get('/blog/post/:post', routes.views.post);
+<<<<<<< HEAD
 	app.get('/public', routes.views.public);
+=======
+	app.get('/galleryp', routes.views.galleryp);
+>>>>>>> 313c0ce928a6be2448ed11b97b91f912a39aab96
 		app.get('/gallery',  middleware.requireUser, routes.views.gallery);
 
 	app.all('/contact', routes.views.contact);

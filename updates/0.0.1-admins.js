@@ -8,7 +8,11 @@
  */
 
 exports.create = {
+<<<<<<< HEAD
 	User = [
+=======
+	exports.User = [
+>>>>>>> 313c0ce928a6be2448ed11b97b91f912a39aab96
 	    {
 	        'name.first': 'Admin',
 	        'name.last': '',
@@ -19,7 +23,11 @@ exports.create = {
 	        roles: ['role_super'],
 	        __ref: 'admin_user'
 	    }
+<<<<<<< HEAD
 	]
+=======
+	];
+>>>>>>> 313c0ce928a6be2448ed11b97b91f912a39aab96
 };
 
 
